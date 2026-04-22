@@ -1,0 +1,54 @@
+{
+  "description": "公益项目",
+  "subdomain": "cyan",
+  "domain": "ciao.su",
+  "owner": {
+    "name": "杵仟凝",
+    "github": "cu32521",
+    "email": "3580326392@qq.com"
+  },
+  "records": [
+    {
+      "type": "A",
+      "name": "mail.cyan.ciao.su",
+      "content": "154.9.253.53",
+      "ttl": 3600,
+      "proxied": false
+    },
+    {
+      "type": "MX",
+      "name": "@",
+      "content": "mail.cyan.ciao.su",
+      "ttl": 3600,
+      "proxied": false
+    },
+    {
+      "type": "TXT",
+      "name": "@",
+      "content": "v=spf1 +a +mx +ip4:154.9.253.53 -all",
+      "ttl": 3600,
+      "proxied": false
+    },
+    {
+      "type": "TXT",
+      "name": "default._domainkey",
+      "content": "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxSswx1T7pm816LxSYf4h9DInK9cEg2dR4BpYhC2RAU8GSrvvs+SvtqJB8sgsW+6V6ZUSdIMv/CkzcH4zwzNcuaB+3WnVTrVer4jpLGn0t1+7QXhNFJNr2MTLtbCeKxtJ/xDkdoNbsVFXEQSzz/BqyX0G/PIxn6oauxW2tIL8hT0Z9J1JvEqpLJMG7/DqgZ+vvB7dB6N/XAKws7C3+0Ibly/5mZ0zSByuYuet7GpMf7T3pzENUyuvjz5O8SMfR7qipPbM1Fo1aq67BYvWJJ6hDOC/UdbXDjEJV4uHS8IsdnuVRBor8q0Cq+yenfjn9qRMCjmI0SftN29bCgGVneAuJQIDAQAB",
+      "ttl": 3600,
+      "proxied": false
+    },
+    {
+      "type": "TXT",
+      "name": "_dmarc",
+      "content": "v=DMARC1;p=quarantine;rua=mailto:admin@cyan.ciao.su",
+      "ttl": 3600,
+      "proxied": false
+    },
+    {
+      "type": "A",
+      "name": "@",
+      "content": "154.9.253.53",
+      "ttl": 3600,
+      "proxied": false
+    }
+  ]
+}
