@@ -18,7 +18,7 @@
     {
       "type": "MX",
       "name": "@",
-      "content": "mail.cyan.ciao.su",
+      "content": "mail.cyan.ciao.su.",
       "ttl": 3600,
       "priority":10,
       "proxied": false
