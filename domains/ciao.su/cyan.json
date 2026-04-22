@@ -10,7 +10,7 @@
   "records": [
     {
       "type": "A",
-      "name": "mail.cyan.ciao.su",
+      "name": "mail",
       "content": "154.9.253.53",
       "ttl": 3600,
       "proxied": false
