@@ -20,6 +20,7 @@
       "name": "@",
       "content": "mail.cyan.ciao.su",
       "ttl": 3600,
+      "priority":10,
       "proxied": false
     },
     {
